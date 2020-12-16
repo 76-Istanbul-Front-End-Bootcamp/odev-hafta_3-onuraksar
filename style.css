@@ -1,0 +1,40 @@
+tbody tr:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Additional Styles and Animations */
+/* Layout, pointer cursors on rows and buttons */
+body {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  margin-top: 50px;
+}
+
+tbody tr {
+  cursor: default;
+}
+
+button {
+  padding: 5px;
+  border-radius: 6px;
+}
+
+button:hover {
+  cursor: pointer !important;
+}
+
+img {
+  margin: 40px 0;
+  border-color: #1f4c85;
+  border-width: 18px;
+  border-style: solid ;
+}
